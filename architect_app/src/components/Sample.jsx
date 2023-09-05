@@ -2,13 +2,11 @@ import React from 'react'
 import { project1, project2, project3, project4, project5 } from '../assets'
 import styles from '../style'
 import { white } from '../assets'
-import { useNavigate } from 'react-router-dom'
-
-
+import {Link} from 'react-router-dom'
 
 const Sample = () => {
   return (
-    <div  className={`${styles.paddingY} relative pb-20`}>
+    <div  className={` ${styles.paddingY} relative pb-20 `}>
       <h1 className='md:text-[3rem] text-[2.5rem] font-thin text-gray-500 p-5'>Our Projects</h1>
 
       <div className='flex sm:flex-row flex-col gap-5 items-center justify-center pt-10 sample-img-holder'>
@@ -54,7 +52,7 @@ const Sample = () => {
         </div>
       </div>
       
-      <button className='btn text-white text-[0.8rem] absolute bottom-0 right-0 w-[200px]  py-4 border border-transparent hover:border-black transition duration-300 ease-in-out hover:bg-white hover:text-black flex items-center justify-center gap-5 '>All PROJECTS <img className='w-[20px]' src={white}/></button>
+      <Link to='/projects' className='btn text-white text-[0.8rem] absolute bottom-0 right-0 w-[200px]  py-4 border border-transparent hover:border-black transition duration-300 ease-in-out hover:bg-white hover:text-black flex items-center justify-center gap-5 '>All PROJECTS <img className='w-[20px]' src={white}/></Link>
     </div>
   )
 }

@@ -1,25 +1,30 @@
-import { gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,facebook,twitter,pintrest,linkedin} from "../assets";
+import { gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,gallery8,gallery9,gallery10,pro1,pro2,pro3} from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "MAIN",
+    name: "MAIN",
+    path: '/',
   },
   {
     id: "features",
-    title: "GALLERY",
+    name: "GALLERY",
+    path: '/gallery',
   },
   {
     id: "product",
-    title: "PROJECT",
+    name: "PROJECT",
+    path: '/projects',
   },
   {
     id: "clients",
-    title: "CERTIFICATIONS",
+    name: "CERTIFICATIONS",
+    path: '/certifications',
   },
   {
     id: "clients",
-    title: "CONTACTS",
+    name: "CONTACTS",
+    path: '/contactinfo',
   },
 ];
 
@@ -91,4 +96,23 @@ export const gallery = [
       },
   ];
 
-
+export const projects = [
+  {
+    id: "project-1",
+    img: pro1,
+    title: 'Sample Project',
+    content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi eaque aliquam, ad consequuntur eligendi voluptates libero architecto officia unde suscipit laboriosam cum praesentium et rem quam temporibus autem rerum.'
+  },
+  {
+    id: "project-2",
+    img: pro2,
+    title: 'Sample Project',
+    content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi eaque aliquam, ad consequuntur eligendi voluptates libero architecto officia unde suscipit laboriosam cum praesentium et rem quam temporibus autem rerum.'
+  },
+  {
+    id: "project-3",
+    img: pro3,
+    title: 'Sample Project',
+    content:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sequi eaque aliquam, ad consequuntur eligendi voluptates libero architecto officia unde suscipit laboriosam cum praesentium et rem quam temporibus autem rerum.'
+  }
+]

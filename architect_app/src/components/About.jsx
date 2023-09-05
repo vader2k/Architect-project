@@ -20,7 +20,7 @@ const About = () => {
           {about.map((text,index)=>(
             <div key={text.id} className='text-[0.9rem] max-w-[600px] p-5'>
               {text.content}
-              <button className='flex items-center justify-center gap-6 w-[150px] h-[40px] bg-white mt-3 text-[0.8rem] border hover:border-black hover:border-1 hover:border-solid'>READ MORE <img className='w-[20px]' src={right}/></button>
+              <button className='ab-btn flex items-center justify-center gap-6 w-[150px] h-[40px] bg-white mt-3 text-[0.8rem] border hover:border-black hover:border-1 hover:border-solid'>READ MORE <img className='w-[20px]' src={right}/></button>
             </div>
           ))}
         </div>

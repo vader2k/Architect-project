@@ -9,6 +9,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+:root{
+  --transition: all 500ms ease;
+}
+
+
 .arrows{
   border: 1px solid rgb(194, 181, 181);
   padding: 5px;
@@ -16,10 +21,7 @@
 .ab{
   background-color: rgba(211, 211, 211, 0.788);
 }
-.sample-img-holger{
-  content: "";
 
-}
 .test{
   display: none;
   left: 0;
@@ -30,14 +32,20 @@
 
 .sigh:hover .test{
   display: block;
+  transition: var(--transition);
 }
 
+
+.ab-btn{
+  transition: var(--transition);
+}
 .btn{
   background-color: rgba(45, 42, 42, 0.804);
+  transition: var(--transition);
 }
-
-
-
+.nav{
+  transition: var(--transition);
+}
 
 
 @media (max-width: 700px){
@@ -68,4 +76,10 @@
   .top,.bottom{
     width: 300px;
   }
+  .show-nav{
+    display: flex;
+}
+.hide-nav{
+    display: none;
+}
 }
