@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import React from 'react'
 import styles from './style';
-import { Navigation,Footer} from './components'
-import {Home, Gallery, Projects, Certifications, ContactInfo, NotFound } from './pages'
+import { Navigation,Footer, Sample} from './components'
+import {Home, Gallery, Projects, Certifications, ContactInfo, NotFound, Samples } from './pages'
 
 
 
@@ -22,6 +22,7 @@ const App = () => {
           <Route path="projects" element={<Projects/>} />
           <Route path="certifications" element={<Certifications/>} />
           <Route path="Contactinfo" element={<ContactInfo/>} />
+          <Route path="samples" element={<Samples/>} />
           <Route path="*" element={<NotFound/>} />
         </Routes>
 

@@ -7,12 +7,12 @@ const About = () => {
   return (
     <div className={` ${styles.boxWidth} items-center justify-center gap-10 flex md:flex-row flex-col-reverse py-5 `}>
       <div className='flex flex-row lg:flex-col gap-5 lg:gap-5 sm:gap-10 about-image  '>
-        <img className='md:w-[350px]' src={about1}/>
-        <img className='md:w-[350px]' src={about2}/>
+        <img className='sm:w-[350px]' src={about1}/>
+        <img className='sm:w-[350px]' src={about2}/>
       </div>
 
       <div className='flex justify-center items-center gap-10 flex-col-reverse sm:flex-row'>
-        <img className='' src={about3}/>
+        <img className='w-[350px]' src={about3}/>
         <div className='flex flex-col text-justify'>
           <h1  className='md:text-[4rem] text-[3rem] font-thin text-gray-500 p-5'>
             About

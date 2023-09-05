@@ -14,7 +14,7 @@ const Sample = () => {
           <img className='sample-img' src={project1}/>
           <p className='text-white text-[2rem] absolute top-0 test p-10'>
             Sample <br/>Project <br/>
-            <button className='text-[0.8rem] flex gap-5 items-center justify-center mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </button>
+            <Link to='/samples' className='text-[0.8rem] flex gap-5 items-center  mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </Link>
           </p>
         </div>
 
@@ -22,7 +22,7 @@ const Sample = () => {
           <img className='sample-img'src={project2} alt="" />
           <p className='text-white text-[2rem] absolute top-0 test p-10'>
             Sample <br/>Project <br/>
-            <button className='text-[0.8rem] flex gap-5 items-center justify-center mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </button>
+            <Link to='/samples' className='text-[0.8rem] flex gap-5 items-center mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </Link>
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Sample = () => {
          <img className='sample-img top'  src={project3} alt="" />
          <p className='text-white text-[1.5rem] absolute top-0 test p-8 '>
             Sample <br/>Project <br/>
-            <button className='text-[0.6rem] flex gap-5 items-center justify-center mt-3'>VIEW MORE <img className='w-[15px]' src={white}/> </button>
+            <Link to='/samples' className='text-[0.6rem] flex gap-5 items-center mt-3'>VIEW MORE <img className='w-[15px]' src={white}/> </Link>
           </p>
         </div>
 
@@ -40,14 +40,14 @@ const Sample = () => {
           <img className='sample-img'  src={project4} alt="" />
           <p className='text-white text-[2rem] absolute top-0 test p-10'>
             Sample <br/>Project <br/>
-            <button className='text-[0.8rem] flex gap-5 items-center justify-center mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </button>
+            <Link to='/samples' className='text-[0.8rem] flex gap-5 items-center mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </Link>
           </p>
         </div>
         <div  className='relative sigh'>
           <img className='sample-img bottom'  src={project5} alt=""/>
           <p className='text-white text-[1.5rem] absolute top-0 test p-8'>
             Sample <br/>Project <br/>
-            <button className='text-[0.6rem] flex gap-5 items-center justify-center mt-3 my-button'>VIEW MORE <img className='w-[15px]' src={white}/> </button>
+            <Link to='/samples' className='text-[0.6rem] flex gap-5 items-center mt-3 my-button'>VIEW MORE <img className='w-[15px]' src={white}/> </Link>
           </p>
         </div>
       </div>

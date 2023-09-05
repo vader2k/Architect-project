@@ -4,6 +4,7 @@ import Projects from './Projects';
 import Certifications from './Certifications';
 import ContactInfo from './ContactInfo';
 import NotFound from './NotFound';
+import Samples from './Samples';
 
 export {
     Home,
@@ -12,4 +13,5 @@ export {
     Certifications,
     ContactInfo,
     NotFound,
+    Samples,
 }
