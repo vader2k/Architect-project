@@ -1,5 +1,6 @@
 import React from 'react'
 import { headerimg,left, right } from '../assets'
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
 
       <div className='relative'>
         <img src={headerimg}/>
-        <button type='button' className='absolute bottom-0 bg-white h-[60px] w-[230px] text-[0.9rem] flex items-center justify-center gap-10 '>VIEW PROJECT <img className='w-[25px]' src={right}/></button>
+        <Link to='/projects' type='button' className='absolute bottom-0 bg-white h-[60px] w-[230px] text-[0.9rem] flex items-center justify-center gap-10 '>VIEW PROJECT <img className='w-[25px]' src={right}/></Link>
       </div>
     </div>
   )

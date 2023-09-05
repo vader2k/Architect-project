@@ -23,7 +23,7 @@ const ContactInfo = () => {
         </div>
           
         <div>
-          <img className='sm:ml-[30rem] ml-8' src={location}/>
+          <img className='lg:ml-[35rem] ml-8' src={location}/>
         </div>
       </div>
     </div>
