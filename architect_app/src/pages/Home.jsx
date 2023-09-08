@@ -10,13 +10,13 @@ const Home = () => {
     const sectionAbout = useRef(null);
     const intersection = useIntersection(sectionAbout , {
         root: null,
-        rootMargin: '100px',
+        rootMargin: '50px',
         threshold: 0.5,
     });
 
 
     const fadeIn = element => {
-        gsap.to(element, 1, {
+        gsap.to(element, 1.5, {
             opacity:1,
             y:-60,
             ease: 'power4.out',
@@ -27,9 +27,9 @@ const Home = () => {
     };
 
     const fadeOut = element => {
-        gsap.to(element, 1, {
+        gsap.to(element, 1.5, {
             opacity:0,
-            y:-20,
+            y:60,
             ease: 'power4.out'
         })
     };
@@ -61,7 +61,7 @@ const Home = () => {
     const fadesOut = item => {
         gsap.to(item, 1, {
             opacity: 0,
-            y: -20,
+            y: 60,
             ease: 'power4.out',
         })
     }
@@ -76,7 +76,7 @@ const Home = () => {
                 <Hero/>
             </div>
 
-            <div ref={sectionAbout} className={`${styles.paddingX} ${styles.flexCenter} ab my-10 fadeIn fadeOut`}>
+            <div ref={sectionAbout} className={`${styles.paddingX} ${styles.flexCenter} mt-24 ab my-10 fadeIn fadeOut`}>
                 <About/>
             </div>
 
@@ -86,7 +86,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div ref={sectionSample} className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div ref={sectionSample} className={`${styles.paddingX} ${styles.flexCenter} mt-28`}>
             <div className={`${styles.boxWidth} fadesIn fadesOut`}>
                 <Sample/>
             </div>

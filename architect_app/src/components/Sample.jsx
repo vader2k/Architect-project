@@ -9,10 +9,10 @@ const Sample = () => {
     <div  className={` ${styles.paddingY} relative pb-20 `}>
       <h1 className='md:text-[3rem] text-[2.5rem] font-thin text-gray-500 p-5'>Our Projects</h1>
 
-      <div className='flex sm:flex-row flex-col gap-5 items-center justify-center pt-10 sample-img-holder'>
+      <div className='flex sm:flex-row flex-col gap-5 items-center justify-center pt-10'>
         <div className='relative sigh'>
           <img className='sample-img' src={project1}/>
-          <p className='text-white text-[2rem] absolute top-0 test p-10'>
+          <p className='text-white text-[2rem] absolute top-0 test p-10 '>
             Sample <br/>Project <br/>
             <Link to='/samples' className='text-[0.8rem] flex gap-5 items-center  mt-3'>VIEW MORE <img className='w-[20px]' src={white}/> </Link>
           </p>
