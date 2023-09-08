@@ -45,6 +45,12 @@
   transition: var(--transition);
 }
 
+.small-nav-items {
+  transform: translateX(100%);
+  animation: fadeInFromRight 2s ease forwards;
+  backdrop-filter: blur(5px) !important;
+}
+
 
 .ab-btn{
   transition: var(--transition);

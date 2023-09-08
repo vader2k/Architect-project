@@ -20,11 +20,11 @@ const Navigation = () => {
         ))}
       </ul>
 
-      <div className='sm:hidden flex flex-1 justify-end items-center '>
-        <img src={toggle ? close : open} alt='menu' className='w-[28px] h-[28px] object-contain transition-[var(--transition)]' onClick={()=>settoggle((prev)=>(!prev))} />
+      <div className='sm:hidden flex flex-1 justify-end items-center nav-small '>
+        <img src={toggle ? close : open} alt='menu' className='w-[28px] h-[28px] object-contain ' onClick={()=>settoggle((prev)=>(!prev))} />
 
-        <div className={`${toggle? 'flex': 'hidden'} absolute bg-white w-[350px] h-[100vh] top-20 z-50 `}>
-          <ul className={`flex flex-col items-center list-none gap-20 ml-20 m-10 ${toggle ? 'show-nav': 'hide-nav'} `}>
+        <div className={`${toggle? 'flex': 'hidden'} absolute bg-white w-[400px] left-1  h-[100vh] top-20 z-50 `}>
+          <ul className={`flex flex-col items-center list-none gap-20 ml-[120px] m-10 ${toggle ? 'show-nav': 'hide-nav'} small-nav-items `}>
             {navLinks.map(({name, path},index) =>(
               <li key={index}>
                 <NavLink to={path} onClick={()=> settoggle((prev)=>(!prev))} className={`text-[20px] text-black  hover:border-t hover:border-b border-black nav`} >
