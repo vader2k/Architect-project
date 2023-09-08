@@ -10,8 +10,8 @@ const Home = () => {
     const sectionAbout = useRef(null);
     const intersection = useIntersection(sectionAbout , {
         root: null,
-        rootMargin: '50px',
-        threshold: 0.5,
+        rootMargin: '0px',
+        threshold: 0.3,
     });
 
 
@@ -34,7 +34,7 @@ const Home = () => {
         })
     };
 
-    intersection && intersection.intersectionRatio < 0.5 ?
+    intersection && intersection.intersectionRatio < 0.3 ?
     fadeOut('.fadeOut') : fadeIn('.fadeIn');
 
 
