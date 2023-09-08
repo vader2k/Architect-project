@@ -5,10 +5,10 @@ const Gallery = () => {
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter} `}>
         <div className='md:px-40 px-0 py-10 '>
-          <h1 className='md:text-[3.5rem] text-[2.5rem] font-thin text-gray-500'>
+          <h1 className='md:text-[3.5rem] text-[2.5rem] font-thin text-gray-500 hero-header-holder'>
             Photo
           </h1>
-          <p className='md:text-[5rem] text-[3.5rem] font-bold text-black'>
+          <p className='md:text-[5rem] text-[3.5rem] font-bold text-black hero-header-holder'>
             Gallery
           </p>
 

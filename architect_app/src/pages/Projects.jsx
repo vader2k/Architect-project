@@ -7,10 +7,10 @@ const Projects = () => {
   return (
     <div className={`${styles.paddingY} ${styles.flexCenter} md:w-[80%] w-[90%] m-auto `}>
         <div className={`${styles.boxWidth}`}>
-          <h1 className='md:text-[3.5rem] text-[2.5rem] font-thin text-gray-500 px-5'>
+          <h1 className='md:text-[3.5rem] text-[2.5rem] font-thin text-gray-500 px-5 hero-header-holder'>
               our
             </h1>
-            <p className='md:text-[5rem] text-[3.5rem] font-bold text-black px-5'>
+            <p className='md:text-[5rem] text-[3.5rem] font-bold text-black px-5 hero-header-holder'>
               Projects
             </p>
 
@@ -25,7 +25,7 @@ const Projects = () => {
                       </div>
                         <div className='flex flex-col place-items-start md:gap-10 gap-5 p-8 ab'>
                           <div className='md:text-[3rem] text-[2rem] font-thin text-gray-500 '> {projects.title}</div> <br/>
-                          <div className='max-w-[600px]'>{projects.content} </div>
+                          <div className='max-w-[600px] sample-texts'>{projects.content} </div>
 
                           <button className='ab-btn flex items-center justify-center gap-6 w-[150px] h-[40px] bg-white text-[0.8rem] border hover:border-black hover:border-1 hover:border-solid sm:my-10 my-5'>VIEW MORE <img className='w-[20px]' src={right}/></button>
                         </div>

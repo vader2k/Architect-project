@@ -5,7 +5,7 @@ const Samples = () => {
   return (
     <div className={`${styles.padding} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-            <div className='py-5 pb-10'>
+            <div className='py-5 pb-10 hero-header-holder'>
                 <p className='md:text-[3.5rem] text-[2.5rem] font-thin text-gray-500'>Sample</p>
                 <h1 className='md:text-[5rem] text-[3.5rem] font-bold text-black'>Project 1</h1>
             </div>

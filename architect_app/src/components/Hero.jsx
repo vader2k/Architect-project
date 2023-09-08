@@ -1,40 +1,9 @@
 import React,{useRef} from 'react'
 import { headerimg,left, right } from '../assets'
 import {Link} from 'react-router-dom'
-import { gsap } from 'gsap'
-import { useIntersection } from 'react-use'
 
 
 const Hero = () => {
-  // const titleRef = useRef(null);
-  // const intersection = useIntersection(titleRef, {
-  //   root: null,
-  //   rootMargin: '0px',
-  //   threshold: 0.5,
-  // });
-
-  // const dropdown = element =>{
-  //   gsap.to(element,1,{
-  //     opacity:1,
-  //     y:20,
-  //     ease: 'power4.out',
-  //     stagger:{
-  //         amount:.4,
-  //     }
-  //   })
-  // };
-
-  // const dropback = element =>{
-  //   gsap.to(element,1,{
-  //     opacity:0,
-  //     y:-80,
-  //     ease: 'power4.out',
-  //   })
-  // };
-
-  // intersection && intersection.intersectionRatio < 0.5 ?
-  // dropback('.dropback') : dropdown('.dropdown');
-
   return (
     <div className='md:flex block items-center gap-48 justify-center my-5'>
       <div  className='my-5 hero-header-holder'>

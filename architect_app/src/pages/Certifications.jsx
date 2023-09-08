@@ -4,7 +4,7 @@ import styles from '../style'
 const Certifications = () => {
   return (
     <div className={`${styles.padding}  md:w-[80%] w-[90%] m-auto`}>
-      <div className='pt-5 pb-20'>
+      <div className='pt-5 pb-20  hero-header-holder'>
           <h1 className='md:text-[3.5rem] text-[2rem] font-thin text-gray-500'>
             COMPANY
           </h1>

@@ -7,10 +7,10 @@ const ContactInfo = () => {
     <div className={`${styles.paddingY} ${styles.flexCenter}`}>
       <div className=' flex sm:flex-row flex-col justify-between items-center gap-20 sm:ml-20 ml-0'>
         <div>
-          <h1 className='md:text-[3.5rem] text-[2rem] font-thin text-gray-500'>
+          <h1 className='md:text-[3.5rem] text-[2rem] font-thin text-gray-500  hero-header-holder'>
               Contact
             </h1>
-            <p className='md:text-[5rem] text-[2.5rem] font-bold text-black'>
+            <p className='md:text-[5rem] text-[2.5rem] font-bold text-black  hero-header-holder'>
               Information
             </p>
 

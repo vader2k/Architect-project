@@ -113,6 +113,11 @@
 }
 
 
+.sample-texts {
+  transform: translateY(100%);
+  animation: fadeInFromButtom 3s ease forwards;
+}
+
 
 @media (max-width: 700px){
   .about-image{
