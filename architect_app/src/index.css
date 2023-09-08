@@ -98,7 +98,7 @@
 
 .hero-btn-holder{
   transform: translateY(100%);
-  animation: fadeInFromButtom 3s ease backwards;
+  animation: fadeInFromButtom 3s ease forwards;
 }
 
 @keyframes fadeInFromButtom {
